@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import math
 
 
-purchase_data =pd.read_csv("/Users/jaineel/Downloads/User_Data - User_Data (1).csv")
+purchase_data =pd.read_csv("User_Data - User_Data.csv")
 #print(purchase_data.head(10))
 #sns.count_
 gender=pd.get_dummies(purchase_data["Gender"],drop_first=True)

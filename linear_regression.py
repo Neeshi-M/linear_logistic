@@ -2,7 +2,7 @@ import csv
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-df =pd.read_csv('/Users/jaineel/Downloads/1.01. Simple linear regression.csv')
+df =pd.read_csv('1.01. Simple linear regression.csv')
 
 x=[]
 y=[]

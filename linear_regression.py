@@ -6,7 +6,7 @@ df =pd.read_csv('1.01. Simple linear regression.csv')
 
 x=[]
 y=[]
-with open('/Users/jaineel/Downloads/1.01. Simple linear regression.csv') as csvdata:
+with open('1.01. Simple linear regression.csv') as csvdata:
     items=csv.reader(csvdata)
     for row in items:
         x.append(row[0])
